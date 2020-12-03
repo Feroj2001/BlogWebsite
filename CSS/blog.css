@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header CSS */
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+ul>li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.blog-header {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* main blog CSS */
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr auto;
+    justify-content: center;
+    border: 5px solid red;
+    padding: 5px;
+}
+
+.blogs {
+    border: 2px solid green;
+    padding: 15px 10px;
+}
