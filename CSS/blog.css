@@ -43,15 +43,15 @@ ul>li {
 
 .blogs {
     border: 2px solid green;
-    padding: 15px 10px;
+    padding: 15px;
 }
 
-/* adding pad into blogOne */
+/* single padding for blogs */
 
-#striking {
+.striking {
     padding: 10px 0;
 }
 
-#randomP {
+.randomP {
     padding-top: 10px;
 }
