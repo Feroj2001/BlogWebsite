@@ -28,14 +28,30 @@ ul>li {
 .container {
     display: grid;
     height: 100vh;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+        'top'
+        'md'
+        'bt'
+        'ft';
     justify-content: center;
     border: 5px solid red;
     padding: 5px;
 }
 
+
 .blogs {
     border: 2px solid green;
     padding: 15px 10px;
+}
+
+/* adding pad into blogOne */
+
+#striking {
+    padding: 10px 0;
+}
+
+#randomP {
+    padding-top: 10px;
 }
